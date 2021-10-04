@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <title>Stop Watch Assignment</title>
+    <link rel="stylesheet" href="assignment4.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h1 class="head-1">Digital clock with stopwatch</h1>
+    <fieldset class="f-1">
+        <legend>Clock</legend>
+        <span class="clock-time" id="myClockDisplay"></span>
+        
+    </fieldset>
+    <fieldset class="f-2">
+        <legend>Stop Watch</legend>
+        <span class="stop-watch" id = "stop-watch">
+            <div class="press">
+                <a href=# id ="startTimer" onclick="start_button()">Start</a>
+                <a href ="#" id="resetTimer" onclick="reset_button()">Reset</a>
+                <a href ="#" id="stopTimer" onclick="stop_button()">Stop</a>
+                <p class="stop-watch2"><span id="seconds">00</span>: <span id="tens">00</span></p>
+            </div>
+            
+        </span>
+    </fieldset>
+
+</div>
+
+<script src="assignment4.js">
+
+</script>
+
+
+</body>
+
+
+</html>
